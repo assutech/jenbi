@@ -1,5 +1,4 @@
-# Jenbi: Deep Learning-based Image Search Engine
-
+# Jenbi: Deep Learning-based Reverse Image Search Engine
 
 ## Overview
 - *Jenbi* is a simple image-based image search engine using Keras + Flask. You can launch the search engine just by running two python scripts.
