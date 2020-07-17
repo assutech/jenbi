@@ -1,0 +1,44 @@
+static/*
+!static/feature
+!static/img
+!static/uploaded
+!.gitkeep
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+.jenda.zip
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# IPython Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# dotenv
+.env
+
+# virtualenv
+venv/
+ENV/
+jenbi/
+
+.jenda-ims.pem
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+
+
+/templates
+/static
+/jenbi
+
+test.py
+ser
