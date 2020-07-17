@@ -3,7 +3,7 @@
 ## Overview
 - *Jenbi* is a simple image-based image search engine using Keras + Flask. You can launch the search engine just by running two python scripts.
 - `offline.py`: This script extracts deep features from images. Given a set of database images, a 4096D fc1-feature is extracted for each image using the VGG16 network with ImageNet pre-trained weights.
-- `server.py`: This script runs a web-server. You can send your query image to the server via a Flask web-intereface/http post request. Then relevant images to the query are retrieved by the simple nearest neighbor search.
+- `app.py`: This script runs a web-server. You can send your query image to the server via a Flask web-intereface/http post request. Then relevant images/image-urls to the query are retrieved by the simple nearest neighbor search.
 
 
 ## Usage
